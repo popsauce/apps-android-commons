@@ -33,7 +33,7 @@
             android:id="@+id/bookmarkButtonText"
             android:paddingTop="8dp"
             android:layout_gravity="center_horizontal"
-            android:text="CAMERA"
+            android:text="@string/camera"
             android:visibility="gone"
             />
     </LinearLayout>
@@ -60,7 +60,7 @@
             android:id="@+id/cameraButtonText"
             android:paddingTop="8dp"
             android:layout_gravity="center_horizontal"
-            android:text="CAMERA"
+            android:text="@string/camera"
             android:visibility="gone"
             />
     </LinearLayout>
@@ -87,7 +87,7 @@
             android:id="@+id/galleryButtonText"
             android:paddingTop="8dp"
             android:layout_gravity="center_horizontal"
-            android:text="GALLERY"
+            android:text="@string/gallery"
             android:duplicateParentState="true"
             android:visibility="gone"
             />
@@ -116,7 +116,7 @@
             android:id="@+id/directionsButtonText"
             android:paddingTop="8dp"
             android:layout_gravity="center_horizontal"
-            android:text="DIRECTIONS"
+            android:text="@string/directions"
             android:duplicateParentState="true"
             android:visibility="gone"
             />
@@ -144,7 +144,7 @@
             android:id="@+id/iconOverflowText"
             android:paddingTop="8dp"
             android:layout_gravity="center_horizontal"
-            android:text="MORE"
+            android:text="@string/MORE"
             android:duplicateParentState="true"
             android:visibility="gone"
             />

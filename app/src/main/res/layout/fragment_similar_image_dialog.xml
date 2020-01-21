@@ -27,7 +27,7 @@
         android:layout_margin="6dp"
         android:layout_gravity="center"
         android:textAlignment="center"
-        android:text="Did you shoot these two pictures at the same place? Do you want to use the latitude/longitude of the picture on the right?"/>
+        android:text="@string/using_similar_location_details_for_pictures_shot_at_same_place"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:orientation="horizontal"
@@ -43,7 +43,7 @@
             android:id="@+id/negative_button"
             android:layout_marginRight="3dp"
             android:layout_height="wrap_content"
-            android:text="No" />
+            android:text="@string/No" />
 
         <Button
             style="@style/Widget.AppCompat.Button.Borderless"
@@ -52,6 +52,6 @@
             android:id="@+id/postive_button"
             android:layout_gravity="right"
             android:layout_marginLeft="3dp"
-            android:text="Yes" />
+            android:text="@string/yes" />
     </LinearLayout>
 </LinearLayout>

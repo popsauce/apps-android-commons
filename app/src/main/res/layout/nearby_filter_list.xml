@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/checkbox_tri_states"
         android:layout_margin="10dp"
-        android:text="All"
+        android:text="@string/all"
         />
 
     <View
